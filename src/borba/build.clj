@@ -1,4 +1,4 @@
-(ns build.component
+(ns borba.build
   "Generic uberjar build for Borba microservices.
   
     Driven entirely by :exec-args declared in the consuming project's deps.edn.
