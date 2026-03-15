@@ -1,0 +1,14 @@
+:build
+{:deps
+ {io.github.clojure/tools.build {:git/tag "v0.10.5" :git/sha "2a21b7a"}
+  borba/borba-build-component
+  {:git/url "https://github.com/AF2B/borba-build-component"
+   :git/tag "v0.1.0"
+   :git/sha "<sha>"}}
+ :ns-default borba.build
+ :exec-args {:lib        com.borba/sum-service
+             :main-ns    borba.runtime.main
+             :uber-file  "target/app.jar"
+             :class-dir  "target/classes"
+             :src-dirs   ["src"]
+             :resource-dirs ["resources"]}}
