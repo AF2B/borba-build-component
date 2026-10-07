@@ -7,6 +7,8 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 ## [Unreleased]
 
+## [1.0.0] - 2026-10-06
+
 ### Added
 
 - The options are checked before anything is built, and a failure says what the option was and what it should be. The main
@@ -31,5 +33,6 @@ The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.1.0/),
 
 The generic `uber` and `clean`, driven by the `:exec-args` of the project.
 
-[Unreleased]: https://github.com/AF2B/borba-build-component/compare/v0.1.2...HEAD
+[Unreleased]: https://github.com/AF2B/borba-build-component/compare/v1.0.0...HEAD
+[1.0.0]: https://github.com/AF2B/borba-build-component/compare/v0.1.2...v1.0.0
 [0.1.2]: https://github.com/AF2B/borba-build-component/releases/tag/v0.1.2
